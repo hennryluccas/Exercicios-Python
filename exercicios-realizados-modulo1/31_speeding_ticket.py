@@ -12,3 +12,11 @@ if velocidade > limite:
     print('VOCÊ FOI MULTADO! O valor permitido é 80Km/h \nO valor a pagar é de R${}'.format(multa))
 else:
     print('Você está no limite da via! Tenha uma boa viagem!')
+
+'''
+O professor não usou o (else), porque o (if) já cuida de sinalizar
+quem ultrapassou o limite. Assim, quem não entrar nessa condição
+(ou seja, está dentro do limite) simplesmente segue direto pra
+próxima linha, que já imprime 'Você está no limite da via! Tenha
+uma boa viagem!' — sem precisar de um bloco (else) separado pra isso.
+'''
