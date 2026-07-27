@@ -6,3 +6,7 @@
 Os exercícios mais recentes incluem o enunciado completo e notas de aprendizado.  
 Os primeiros exercícios _(numeração inicial)_ contêm apenas o código, 
 já que a prática de documentação veio depois, conforme fui evoluindo.
+
+## Estrutura
+- `exercicios-realizados-modulo1/`: exercícios do Mundo 1 (fundamentos)
+- `exercicios-realizados-modulo2/`: exercícios do Mundo 2 (em andamento)
