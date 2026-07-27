@@ -16,4 +16,4 @@ Os primeiros exercícios (numeração inicial) contêm apenas o código, já que
 
 ## Contato
 Aberto a trocar ideia com quem também está na área ou começando agora.
-- [LinkedIn](seu-link-aqui)
+- [LinkedIn](https://www.linkedin.com/in/hennry-luccas-duarte-3433b538a/)
