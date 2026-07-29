@@ -10,10 +10,10 @@ o recurso de mostrar que tipo de triângulo será formado:
 lado1 = int(input('Digite o primeiro lado: '))
 lado2 = int(input('Digite o segundo lado: '))
 lado3 = int(input('Digite o terceiro lado: '))
-
+#Validade do triângulo
 if lado1 < lado2 + lado3 and lado2 < lado1 + lado3 and lado3 < lado1 + lado2:
     print('Pode formar um triângulo')
-    if lado1 == lado2 == lado3:
+    if lado1 == lado2 == lado3: #Qual tipo de triângulo
         print('Esse é um triângulo EQUILÁTERO (todos os lados iguais)')
     elif lado1 != lado2 and lado2 != lado3 and lado3 != lado1:
         print('Esse é um triângulo ESCALENO (todos os lados diferentes)')
