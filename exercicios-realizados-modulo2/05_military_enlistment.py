@@ -19,7 +19,9 @@ ultrapassou_idade = idade_usuario - idade_servico_militar
 
 if idade_usuario < idade_servico_militar:
     print('Você só vai se alistar quando completar 18 anos, isso será daqui {} ano(s). FIQUE ATENTO!'.format(falta_completar))
+    print('Seu alistamento será em {}'.format(date.today().year + falta_completar))
 elif idade_usuario == idade_servico_militar:
     print('Está na hora de se alistar! Vá pessoalmente a uma Junta de Serviço Militar mais próxima.')
 else:
     print('Já passou da hora de você se alistar! Já se passaram {} ano(s)!'.format(ultrapassou_idade))
+    print('Seu alistamento foi em {}'.format(date.today().year - ultrapassou_idade))
