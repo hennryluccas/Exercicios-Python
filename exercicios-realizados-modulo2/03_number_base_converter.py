@@ -12,13 +12,13 @@ n = int(input('Digite um número que deseja converter: '))
 opcoes = int(input('Para qual sistema numérico você deseja converter: \n1 - Binário \n2 - Octal \n3 - Hexadecimal \nEscolha a sua opção: '))
 if opcoes == 1:
     binario = bin(n)
-    print('O número {} convertido para binário é {}'.format(n, binario))
+    print('O número {} convertido para binário é {}'.format(n, binario[2:]))
 elif opcoes == 2:
     octal = oct(n)
-    print('O número {} convertido para octal é {}'.format(n, octal))
+    print('O número {} convertido para octal é {}'.format(n, octal[2:]))
 elif opcoes == 3:
     hexadecimal = hex(n)
-    print('O número {} convertido para hexadecimal é {}'.format(n, hexadecimal))
+    print('O número {} convertido para hexadecimal é {}'.format(n, hexadecimal[2:]))
 else:
     print('Opção inválida! Escolha 1, 2 ou 3')
 
