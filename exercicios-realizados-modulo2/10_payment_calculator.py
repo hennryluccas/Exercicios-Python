@@ -20,7 +20,7 @@ if pagamento == 1:
 elif pagamento == 2:
     print('Valor sem desconto R${:.2f} - VALOR COM DESCONTO R${:.2f} (5% DE DESCONTO)'.format(produto, a_vista_cartao))
 elif pagamento == 3:
-    print('Você pagará 2x de R${:.2f}'.format(duas_vezes_cartao))
+    print('Você pagará 2x de R${:.2f} SEM JUROS'.format(duas_vezes_cartao))
 elif pagamento == 4:
     quantas_vezes = int(input('Em quantas vezes deseja pagar: '))
     tres_ou_mais = (produto + (produto * 20 / 100)) / quantas_vezes
