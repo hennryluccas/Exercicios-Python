@@ -21,6 +21,6 @@ elif imc >= 18.5 and imc <= 25:
 elif imc >= 25 and imc <= 30:
     print('SOBREPESO. Seu IMC é {:.2f}'.format(imc))
 elif imc >= 30 and imc <= 40:
-    print('Você está com OBESIDADE. Seu IMC é {:.2f}'.format(imc))
+    print('Você está em OBESIDADE. Seu IMC é {:.2f}'.format(imc))
 else:
-    print('Você está com OBESIDADE MÓRBIDA. Seu IMC é {:.2f}'.format(imc))
+    print('Você está em OBESIDADE MÓRBIDA. Seu IMC é {:.2f}'.format(imc))
