@@ -24,6 +24,7 @@ elif pagamento == 3:
 elif pagamento == 4:
     quantas_vezes = int(input('Em quantas vezes deseja pagar: '))
     tres_ou_mais = (produto + (produto * 20 / 100)) / quantas_vezes
-    print('Você pagará {}x de R${:.2f}'.format(quantas_vezes, tres_ou_mais))
+    print('Você pagará {}x de R${:.2f} COM JUROS'.format(quantas_vezes, tres_ou_mais))
+    print('Sua compra de R${:.2f} vai acabar custando R${:.2f} no final.'.format(produto, quantas_vezes * tres_ou_mais))
 else:
     print('Opção inválida. Selecione as opções 1, 2, 3 ou 4')
