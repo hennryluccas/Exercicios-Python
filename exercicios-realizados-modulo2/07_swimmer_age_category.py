@@ -6,7 +6,7 @@ de acordo com a idade:
 - Até 9 anos: MIRIM
 - Até 14 anos: INFANTIL
 - Até 19 anos: JUNIOR
-- Até 20 anos: Sênior
+- Até 25 anos: Sênior
 - Acima: Master
 '''
 
@@ -20,7 +20,7 @@ elif idade <= 14:
     print('Idade {} - Atleta INFANTIL.'.format(idade))
 elif idade <= 19:
     print('Idade {} - Atleta JUNIOR.'.format(idade))
-elif idade <= 20:
+elif idade <= 25:
     print('Idade {} - Atleta SÊNIOR.'.format(idade))
 else:
     print('Idade {} - Atleta MASTER.'.format(idade))
