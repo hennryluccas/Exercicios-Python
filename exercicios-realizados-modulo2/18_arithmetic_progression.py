@@ -7,5 +7,5 @@ primeiro_termo = int(input('Digite o primeiro termo: '))
 razao = int(input('Digite a razão: '))
 print(primeiro_termo)
 for c in range(0, 9):
-    primeiro_termo += razao
+    primeiro_termo = primeiro_termo + razao
     print(primeiro_termo)
