@@ -4,7 +4,7 @@ estouro de fogos de artifício indo de 10 até 0, com uma pausa de 1 segundo ent
 '''
 
 from time import sleep
-for c in range(10, 0, -1):
-    print(c)
+for cont in range(10, -1, -1):
+    print(cont)
     sleep(1)
-print('FELIZ ANO NOVO!')
+print('BOOOOM BOOOOOOM BOOOM!')
