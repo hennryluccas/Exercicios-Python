@@ -9,8 +9,8 @@ atingiram a maioridade e quantas já são maiores.
 from datetime import date
 menores = 0
 maiores = 0
-for c in range(0,7):
-    ano = int(input('Digite o ano de nascimento: '))
+for c in range(1,8):
+    ano = int(input('Digite o ano de nascimento da {}ª pessoa: '.format(c)))
     idade = date.today().year - ano
     if idade >= 21:
         maiores += 1
