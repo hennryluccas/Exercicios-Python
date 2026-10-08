@@ -28,6 +28,6 @@ while not acertou:
     else:
         if jogador < computador:
             print('Mais... Tente mais uma vez.')
-        elif jogador > computador:
+        else:
             print('Menos... Tente mais uma vez.')
 print('Acertou com {} tentativas. Parabéns!'.format(palpites))
