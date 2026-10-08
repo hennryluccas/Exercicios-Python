@@ -5,7 +5,6 @@ sexo de 4 pessoas. No final do programa, mostre:
 - A média de idade do grupo
 - Qual é o nome do homem mais velho
 - Quantas mulheres têm menos de 20 anos
-
 '''
 
 soma_idades = 0  # cria o acumulador da soma das idades, começa em 0
