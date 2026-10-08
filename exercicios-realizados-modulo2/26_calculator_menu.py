@@ -1,3 +1,7 @@
+'''
+
+'''
+
 num_1 = int(input('Primeiro Valor: '))
 num_2 = int(input('Segundo Valor: '))
 continuar = True
@@ -10,12 +14,12 @@ while continuar:
     opcao_usuario = int(input('>>>>> Qual é a sua opção: '))
 #1
     if opcao_usuario == 1:
-            resultado_soma = num_1 + num_2
-            print('O resultado da soma entre {} e {} é {}'.format(num_1, num_2, resultado_soma))
+        resultado_soma = num_1 + num_2
+        print('O resultado da soma entre {} + {} é {}'.format(num_1, num_2, resultado_soma))
 #2
     elif opcao_usuario == 2:
-            resultado_multiplicar = num_1 * num_2
-            print('O resultado da multiplicação entre {} e {} é {}'.format(num_1, num_2, resultado_multiplicar))
+        resultado_multiplicar = num_1 * num_2
+        print('O resultado da multiplicação entre {} x {} é {}'.format(num_1, num_2, resultado_multiplicar))
 #3
     elif opcao_usuario == 3:
         if num_1 > num_2:
