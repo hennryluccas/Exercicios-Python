@@ -34,4 +34,3 @@ while continuar:
         continuar = False
     else:
         print('Opção inválida. Tente novamente')
-        continuar = True
