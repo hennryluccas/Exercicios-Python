@@ -1,4 +1,12 @@
 '''
+Melhore o jogo do DESAFIO 30 do Mundo 1 onde o
+computador vai "pensar" em um número entre 0 e 10.
+Só que agora o jogador vai tentar adivinhar até acertar,
+mostrando no final quantos palpites foram necessários para vencer.
+'''
+
+# Como eu fiz:
+
 from random import randint
 computador = randint(0,10)
 usuario = -1
@@ -10,7 +18,6 @@ while usuario != computador:
     tentativas += 1
 print('PARABÉNS! VOCÊ GANHOU!')
 print('Foram necessárias {} tentativas'.format(tentativas))
-'''
 
 # Como o professor fez:
 
