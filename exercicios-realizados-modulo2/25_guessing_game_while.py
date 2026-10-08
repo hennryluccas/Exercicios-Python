@@ -1,5 +1,4 @@
 '''
-
 from random import randint
 computador = randint(0,10)
 usuario = -1
@@ -10,7 +9,8 @@ while usuario != computador:
     usuario = int(input('Digite o número que o computador está pensando: '))
     tentativas += 1
 print('PARABÉNS! VOCÊ GANHOU!')
-print('Foram necessárias {} tentativas'.format(tentativas))'''
+print('Foram necessárias {} tentativas'.format(tentativas))
+'''
 
 # Como o professor fez:
 
