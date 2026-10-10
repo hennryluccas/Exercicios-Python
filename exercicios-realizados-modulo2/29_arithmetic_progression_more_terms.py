@@ -19,3 +19,4 @@ while mais != 0:
     print('FIM')
     mais = int(input('Você deseja quantos termos a mais? '))
 print('FIM')
+print('Progressão finalizada com {} termos'.format(total))
