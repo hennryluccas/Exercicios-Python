@@ -4,7 +4,7 @@
 
 ## Progresso
 - [x] Mundo 1: Fundamentos (variáveis, tipos, strings, listas, dicionários, formatação)
-- [x] Mundo 2: Em andamento, 38 exercícios feitos (condicionais, laços `for` e `while`, validação de entrada)
+- [x] Mundo 2: Estruturas de controle, 38 exercícios (condicionais, laços `for` e `while`, validação de entrada)
 
 ## O que já pratiquei
 - **Condicionais:** `if`, `elif`, `else`, condições aninhadas
